@@ -6,7 +6,9 @@ class XrayPlugin < Formula
   version "1.8.24"
 
   def install
-    bin.install "xray-plugin"
+    file = Dir["xray-plugin*"].first
+    chmod 0755, file
+    bin.install file => "xray-plugin"
   end
 
   test do
