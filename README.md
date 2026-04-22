@@ -11,9 +11,13 @@ A custom Homebrew tap for installing **xray-plugin*, enabling Shadowsocks to use
 brew tap hoteptah/xray-plugin
 ```
 
-### 1. Install the plugin
+### 2. Install the plugin
 
 ```bash
 brew install xray-plugin
 ```
+### 3. Verify installation
 
+```bash
+xray-plugin --version
+```
