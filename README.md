@@ -21,3 +21,16 @@ brew install xray-plugin
 ```bash
 xray-plugin --version
 ```
+
+## ⚠️ Supported Platform
+
+Currently, this tap installs the binary from the following upstream release:
+
+https://github.com/teddysun/xray-plugin/releases/download/v1.8.24/xray-plugin-linux-amd64-v1.8.24.tar.gz
+
+**Supported platform:**
+
+OS: Linux
+Architecture: amd64 (x86_64)
+
+*Other architectures (ARM, etc.) are not supported yet.*
